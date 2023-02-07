@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import Sidebar from "./Sidebar";
 
-const PlayerLayout = ({ children }) => {
+const PlayerLayout = ({ children }: { children: any }) => {
   return (
     <Box width="100vw" height="100vh">
       <Box position="absolute" top="0" width="250px" left="0">
